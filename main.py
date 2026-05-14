@@ -1,5 +1,6 @@
 # Importaciones de cada integrante
    # Integrante A
+   from distancia import calcular_distancia
     #integrante b
 from eta import calcular_eta                  # Integrante C
 
@@ -18,7 +19,7 @@ def main():
     velocidad = float(input("Ingrese velocidad (km/h): "))
 
     # Integrante A: cálculo de distancia
-   
+   distacia = calcular_distancia(x1,y1,x2,y2)
 
     # Integrante B: cálculo de combustible
 
